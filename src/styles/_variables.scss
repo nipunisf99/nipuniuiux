@@ -1,0 +1,38 @@
+// Override Bootstrap variables
+$grid-breakpoints: (
+        xs: 0,
+        xsm: 379px,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px,
+        xxl: 1400px
+);
+
+$container-max-widths: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px,
+        xxl: 1400px
+);
+
+$primary: #232323;
+$secondary: #ebe6e6;
+$white: #ffffff;
+$ternary: #F3C500;
+$ternary-focus: #DC9100;
+$ternary-hover: #FAD653;
+$disabled: #A6A8A9;
+$card-body: #343434;
+
+
+$font-family-base: "Inter";
+$font-inter: $font-family-base;
+$font-ClashGrotesk: "ClashGrotesk";
+
+$font-size-base: 0.875rem;
+$font-weight-bold: 600;
+
+$ui-font-family: $font-inter;

@@ -1,0 +1,642 @@
+body {
+  background-color: $primary;
+  font-size: 0.875 rem;
+}
+
+//Navbar
+.container-fluid {
+  padding:8px;
+  @include media-breakpoint-up(lg) {
+    width: fit-content;
+
+    button:focus:not(:focus-visible) {
+      outline: none;
+    }
+  }
+}
+
+.nav-link {
+  font-family: "Inter";
+  font-weight: 200;
+  font-size: 16px;
+  color: $secondary;
+
+  &:hover {
+    color: $ternary-hover;
+  }
+
+  &:focus {
+    color: $ternary;
+    font-weight: 400;
+  }
+}
+
+.nav-item:hover {
+  color: $ternary;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-nav {
+
+  align-items: center;
+
+  @include media-breakpoint-down(lg) {
+    padding-left: 48px;
+    padding-right: 48px;
+    background-color: #414141;
+    padding-bottom: 16px;
+    padding-top:16px;
+  }
+}
+
+//Common
+.main-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+
+  @include media-breakpoint-down(lg) {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+
+  @include media-breakpoint-down(md) {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+h1 {
+  font-family: "ClashGrotesk-Bold";
+  font-size: 72px;
+  background: linear-gradient(45deg, #EB7F37, #E6CE8E, #B38BDB);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  animation: animate 5s ease-in-out infinite;
+
+  @include media-breakpoint-down(md) {
+    font-size: 64px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    font-size: 52px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+h2 {
+  font-family: "Inter";
+  font-weight: 200;
+  font-size: 32px;
+
+  @include media-breakpoint-down(md) {
+    font-size: 28px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    font-size: 24px;
+  }
+}
+
+h3 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 28px;
+  color: $ternary;
+  align-self: flex-start;
+
+  @include media-breakpoint-down(md) {
+    font-size: 24px;
+  }
+
+  @include media-breakpoint-down(md) {
+    font-size: 18px;
+  }
+}
+
+p {
+  font-family: "Inter";
+  font-weight: 200;
+  font-size: 16px;
+  color: $secondary;
+
+  @include media-breakpoint-down(md) {
+    font-size: 14px;
+  }
+  @include media-breakpoint-down(sm) {
+    font-size: 12px;
+  }
+}
+
+.icon-frame {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+
+  .icon-style {
+    color: $secondary;
+    width: 24px !important;
+    height: 24px !important;
+    transition: color 0.5s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      color: $ternary;
+      transform: scale(1.2);
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+//AboutPage
+.about-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  column-gap: 24px;
+  row-gap: 16px;
+
+  @include media-breakpoint-down(md) {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+  }
+}
+
+.about-item1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  /*background-color: #EB7F37;*/
+  height: fit-content;
+  display: flex;
+
+  @include media-breakpoint-down(md) {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+
+  span {
+    display: flex;
+    align-items: center;
+    transform: rotate(-90deg);
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 40px;
+    white-space: nowrap;
+    padding-left: 24px;
+    color: $ternary;
+
+
+    @include media-breakpoint-down(lg) {
+      font-size: 32px;
+    }
+    @include media-breakpoint-down(md) {
+      font-size: 28px;
+    }
+  }
+
+  p {
+    font-family: "Inter";
+    font-weight: 200;
+    font-size: 28px;
+    color: $secondary;
+
+    @include media-breakpoint-down(lg) {
+      font-size: 22px;
+    }
+    
+    @include media-breakpoint-down(md) {
+      font-size: 18px;
+    }
+  }
+}
+
+.about-item-pic {
+  grid-column: 2/4;
+  grid-row: 1/3;
+  /*background-color: aqua;*/
+  overflow: hidden;
+
+  @include media-breakpoint-down(md) {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+
+
+    @include media-breakpoint-down(md) {
+      height: 100%;
+    }
+
+  }
+}
+
+.about-item3 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  /*background-color: #E6CE8E;*/
+  height: fit-content;
+
+  @include media-breakpoint-down(md) {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+}
+
+.counter-sec {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+
+  .counter-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 120px;
+    width: 100%;
+    border: 1px solid $secondary;
+    border-radius: 8px;
+    padding: 8px;
+    justify-content: start;
+
+    .counter-icon {
+      display: flex;
+      align-items: baseline;
+
+      h2 {
+        font-weight: 600;
+        color: $ternary;
+      }
+
+      .icon-style {
+        color: $secondary;
+        width: 20px;
+        height: 20px;
+        ;
+      }
+    }
+  }
+}
+
+.skill-div{
+  display:flex;
+  width: -webkit-fill-available;
+  justify-content: space-between;
+
+  @include media-breakpoint-down(md) {
+    flex-direction: column;
+  }
+}
+
+.dev-des-skills{
+  display: flex;
+  flex-direction: column;
+  width:50%;
+  align-self: baseline;
+}
+.skill-grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+
+  @include media-breakpoint-down(md) {
+    grid-template-columns: 1fr;
+    grid-template-row: 1fr 1fr;
+  }
+
+  .grid-1{
+    grid-column: 1/2;
+    @include media-breakpoint-down(md) {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+  }
+  .grid-2{
+    grid-column: 2/3;
+    @include media-breakpoint-down(md) {
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+  }
+}
+
+.skills-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 24px;
+
+  @include media-breakpoint-down(md) {
+    gap: 16px;
+  }
+
+  .skill-set {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding:16px;
+    gap: 8px;
+
+    .icon-style {
+      color: $secondary;
+      width: 60px !important;
+      height: 60px !important;
+      transition: color 0.5s ease;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+      &:hover {
+        color: $ternary;
+        transform: scale(1.2);
+      }
+
+      @include media-breakpoint-down(md) {
+        width: 40px !important;
+        height: 40px !important;
+      }
+    }
+  }
+
+    span {
+      align-self: center;
+      font-family: "Inter";
+      font-weight: 400;
+      font-size: 12px;
+      color: $secondary;
+    }
+  }
+
+  .btn-sec {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 350px;
+
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+    }
+  }
+
+  .work-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 16px;
+
+    @include media-breakpoint-down(md) {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+    }
+  }
+
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    color: $secondary;
+    background-color: $card-body;
+    padding: 8px;
+    border-radius: 8px;
+    gap: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    @include media-breakpoint-down(lg) {
+      width: 100%;
+      margin:0;
+      box-sizing: border-box;
+    }
+
+    &:hover {
+      transform: scale(1.05);
+    }     
+
+    .img-cont{
+      height: 300px; 
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+      }
+    }
+
+    .card-bottom {
+      display: flex;
+      justify-content: space-between;
+
+      p {
+        font-family: "Inter";
+        font-weight: 200;
+        font-size: 16px;
+        color: $secondary;
+
+        @include media-breakpoint-down(md) {
+          font-size: 14px;
+        }
+        @include media-breakpoint-down(sm) {
+          font-size: 12px;
+        }
+      }
+
+      .icon-btn {
+        .icon-style {
+          color: $secondary;
+          width: 25px !important;
+          height: 25px !important;
+          transition: color 0.5s ease;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+          &:hover {
+            color: $ternary;
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+
+
+  //FOOTER
+  .footer-sec {
+    background-color: #414141;
+    padding: 16px;
+    color: $secondary;
+
+
+    .footer-flex {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      p {
+        font-family: "Inter";
+        font-weight: 200;
+        font-size: 14px;
+        color: $secondary;
+
+        @include media-breakpoint-down(md) {
+          font-size: 10px;
+        }
+      }
+
+      .nav-link{
+        font-size: 14px !important;
+        font-weight: 400;
+      }
+
+      .footer-topic {
+        display: inline-block;
+        border-bottom: 1px solid #fff;
+      }
+
+      .icon-frame {
+        display: flex;
+        width: 150px;
+        justify-content: space-between;
+
+        .icon-style {
+          color: $secondary;
+          width: 20px !important;
+          height: 20px !important;
+          transition: color 0.5s ease;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+          &:hover {
+            color: $ternary;
+            transform: scale(1.2);
+          }
+        }
+      }
+    }
+  }
+
+  @keyframes fade-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-30px) scale(0.9);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  .btn {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: $secondary;
+    background-color: transparent;
+    border: 1px solid $secondary;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.4s ease;
+    flex:1;
+
+    @include media-breakpoint-down(md) {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .btn-font{
+    font-size: 16px;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 12px;
+    }
+  }
+
+  .btn-icon {
+    color: &secondary;
+    width: 24px;
+    height: 24px;
+  }
+
+  /* Pseudo-element for sliding background */
+  .btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: $ternary;
+    transition: left 0.4s ease;
+    z-index: 0;
+  }
+
+  /* Text should stay on top */
+  .btn span {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Hover effect */
+  .btn:hover::before {
+    left: 0;
+  }
+
+  .btn:hover {
+    color: $primary;
+    border: none;
+  }
+
+  .btn:disabled {
+    color: $white !important;
+    background: $disabled;
+    box-shadow: none;
+  }
+
+  .btn:focus {
+    color: $primary;
+    background-color: $ternary;
+    box-shadow: none !important;
+    border: none;
+  }
+
+  .slide-in{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    background: $secondary;
+    transform-origin: bottom;
+  }
+
+  .slide-out{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    background: $secondary;
+    opacity: 0.1;
+    transform-origin: top;
+  }
