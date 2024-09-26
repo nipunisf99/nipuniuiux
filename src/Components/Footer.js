@@ -8,10 +8,10 @@ function Footer() {
                 <p className='footer-topic'>
                     Get in touch
                 </p>
-                <p className='mb-2'>Feel free to reach out for collaborations or just a friendly hello</p>
+                <p className='mb-2 text-center'>Feel free to reach out for collaborations or just a friendly hello</p>
                 <a className="nav-link" href="mailto:someone@example.com?subject=Inquiry&body=Hello%20there!">nipunif93@gmail.com</a>
 
-                <div className='icon-frame mt-3'>
+                <div className='icon-frame mt-4'>
                     <a href="https://www.linkedin.com/in/nipunifernando99/" target="_blank" rel="noopener noreferrer">
                         <Icon icon="bi:linkedin" className='icon-style' />
                     </a>

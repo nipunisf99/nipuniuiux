@@ -24,7 +24,7 @@ function Work() {
   };
 
   return (
-    <div className='main-grid mt-5'>
+    <div className='main-grid mt-2 mt-sm-5'>
       <div className='btn-sec'>
         <button className="btn" onClick={() => handleSectionChange('designsec')}>
           <span className='btn-font'>UI/UX Design</span>
@@ -152,7 +152,7 @@ function Work() {
                     <p className='mb-0'>UI Design and Development</p>
                   </div>
                   <div className='icon-btn'>
-                    <a href="https://www.behance.net/gallery/150274583/SMOBSY-online-shopping-platform-Website-UI-Design" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/nipunisf99/nipuniuiux" target="_blank" rel="noopener noreferrer">
                       <Icon icon="akar-icons:github-fill" className='icon-style' />
                     </a>
                   </div>
@@ -174,8 +174,11 @@ function Work() {
                     <p className='mb-0'>Villa Website</p>
                     <p className='mb-0'>UI Design and Development</p>
                   </div>
-                  <div className='icon-btn'>
-                    <a href="https://github.com/nipunisf99/VillaMarisol-ReactFrontEndProject" target="_blank" rel="noopener noreferrer">
+                  <div className='icon-btn d-flex gap-4'>
+                  <a href="https://nipunisf99.github.io/villamarisol/" target="_blank" rel="noopener noreferrer">
+                      <Icon icon="ph:link" className='icon-style' />
+                    </a>
+                    <a href="https://github.com/nipunisf99/villamarisol" target="_blank" rel="noopener noreferrer">
                       <Icon icon="akar-icons:github-fill" className='icon-style' />
                     </a>
                   </div>

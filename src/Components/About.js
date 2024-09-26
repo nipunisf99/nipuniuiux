@@ -23,7 +23,7 @@ function About() {
     startCounter(); // Trigger counter on component mount
   }, []); // Empty dependency array ensures it runs on mount
   return (
-    <div className='main-grid mt-5'>
+    <div className='main-grid mt-2 mt-sm-5'>
 
       <div className="about-grid">
         <div className="about-item1">
