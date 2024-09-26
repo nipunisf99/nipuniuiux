@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nipuniuiux/static/css/main.b2f89fd6.css",
-    "main.js": "/nipuniuiux/static/js/main.7bc7d05a.js",
+    "main.css": "/nipuniuiux/static/css/main.beca5bde.css",
+    "main.js": "/nipuniuiux/static/js/main.f3f8f82a.js",
     "static/js/453.343b935b.chunk.js": "/nipuniuiux/static/js/453.343b935b.chunk.js",
     "static/media/PNSFernando Resume.pdf": "/nipuniuiux/static/media/PNSFernando Resume.932ac75165ceda1cd115.pdf",
     "static/media/Profilepic-YellowBG.png": "/nipuniuiux/static/media/Profilepic-YellowBG.34956b8ab3ff4033ce1f.png",
@@ -38,12 +38,12 @@
     "static/media/ClashGrotesk-Medium.woff2": "/nipuniuiux/static/media/ClashGrotesk-Medium.70562d8c4c3ea4b66dd6.woff2",
     "static/media/ClashGrotesk-Bold.woff2": "/nipuniuiux/static/media/ClashGrotesk-Bold.b8dfad4ca28d511259f7.woff2",
     "index.html": "/nipuniuiux/index.html",
-    "main.b2f89fd6.css.map": "/nipuniuiux/static/css/main.b2f89fd6.css.map",
-    "main.7bc7d05a.js.map": "/nipuniuiux/static/js/main.7bc7d05a.js.map",
+    "main.beca5bde.css.map": "/nipuniuiux/static/css/main.beca5bde.css.map",
+    "main.f3f8f82a.js.map": "/nipuniuiux/static/js/main.f3f8f82a.js.map",
     "453.343b935b.chunk.js.map": "/nipuniuiux/static/js/453.343b935b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2f89fd6.css",
-    "static/js/main.7bc7d05a.js"
+    "static/css/main.beca5bde.css",
+    "static/js/main.f3f8f82a.js"
   ]
 }
