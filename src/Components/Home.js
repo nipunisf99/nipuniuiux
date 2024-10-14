@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 import { animateHome } from './gsapAnimation';
 import { transition } from './framerMotionAnimation';
 import profilePic from '../assets/images/newpropic.png';
-import resume from '../assets/PNSFernando-UIUXEngineer-Resume.pdf';
+import resume from '../assets/CV/PNSFernando-Resume.pdf';
 
 function Home() {
     useEffect(() => {
