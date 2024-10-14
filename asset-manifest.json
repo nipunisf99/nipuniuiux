@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/nipuniuiux/static/css/main.beca5bde.css",
-    "main.js": "/nipuniuiux/static/js/main.f3f8f82a.js",
+    "main.css": "/nipuniuiux/static/css/main.605da664.css",
+    "main.js": "/nipuniuiux/static/js/main.ddd45cc9.js",
     "static/js/453.343b935b.chunk.js": "/nipuniuiux/static/js/453.343b935b.chunk.js",
-    "static/media/PNSFernando Resume.pdf": "/nipuniuiux/static/media/PNSFernando Resume.932ac75165ceda1cd115.pdf",
-    "static/media/Profilepic-YellowBG.png": "/nipuniuiux/static/media/Profilepic-YellowBG.34956b8ab3ff4033ce1f.png",
+    "static/media/PNSFernando-UIUXEngineer-Resume.pdf": "/nipuniuiux/static/media/PNSFernando-UIUXEngineer-Resume.c4c36b933672ce5cd901.pdf",
     "static/media/mealmateui.png": "/nipuniuiux/static/media/mealmateui.5fb2713714fa68bd9730.png",
     "static/media/ugc.png": "/nipuniuiux/static/media/ugc.ae331ca260a530d0cd77.png",
     "static/media/villa.png": "/nipuniuiux/static/media/villa.84117fb3c014bd202c67.png",
+    "static/media/newpropic.png": "/nipuniuiux/static/media/newpropic.036ab42aeca7d9a18c9e.png",
     "static/media/tourism.png": "/nipuniuiux/static/media/tourism.a5fd367bfd65fd0d3000.png",
     "static/media/smobsy.png": "/nipuniuiux/static/media/smobsy.987730a62795881df578.png",
     "static/media/apartment.jpg": "/nipuniuiux/static/media/apartment.abe522051943e9969649.jpg",
@@ -22,6 +22,7 @@
     "static/media/Inter-Black.woff2": "/nipuniuiux/static/media/Inter-Black.9ed71fbc8206e8069042.woff2",
     "static/media/Inter-Regular.woff2": "/nipuniuiux/static/media/Inter-Regular.76224c7fa303861462e7.woff2",
     "static/media/Inter-Thin.woff2": "/nipuniuiux/static/media/Inter-Thin.2deca9291ec28e5bbe13.woff2",
+    "static/media/Jaro_60pt-Regular.ttf": "/nipuniuiux/static/media/Jaro_60pt-Regular.74f4ca0474d7acea9ac4.ttf",
     "static/media/ClashGrotesk-Medium.ttf": "/nipuniuiux/static/media/ClashGrotesk-Medium.b069c91b9e31d834f2d9.ttf",
     "static/media/ClashGrotesk-Semibold.ttf": "/nipuniuiux/static/media/ClashGrotesk-Semibold.d583b8efe538269e0524.ttf",
     "static/media/ClashGrotesk-Light.ttf": "/nipuniuiux/static/media/ClashGrotesk-Light.592714378da042e0dfc6.ttf",
@@ -38,12 +39,12 @@
     "static/media/ClashGrotesk-Medium.woff2": "/nipuniuiux/static/media/ClashGrotesk-Medium.70562d8c4c3ea4b66dd6.woff2",
     "static/media/ClashGrotesk-Bold.woff2": "/nipuniuiux/static/media/ClashGrotesk-Bold.b8dfad4ca28d511259f7.woff2",
     "index.html": "/nipuniuiux/index.html",
-    "main.beca5bde.css.map": "/nipuniuiux/static/css/main.beca5bde.css.map",
-    "main.f3f8f82a.js.map": "/nipuniuiux/static/js/main.f3f8f82a.js.map",
+    "main.605da664.css.map": "/nipuniuiux/static/css/main.605da664.css.map",
+    "main.ddd45cc9.js.map": "/nipuniuiux/static/js/main.ddd45cc9.js.map",
     "453.343b935b.chunk.js.map": "/nipuniuiux/static/js/453.343b935b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.beca5bde.css",
-    "static/js/main.f3f8f82a.js"
+    "static/css/main.605da664.css",
+    "static/js/main.ddd45cc9.js"
   ]
 }
