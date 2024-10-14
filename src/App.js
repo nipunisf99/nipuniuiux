@@ -9,11 +9,12 @@ import About from './Components/About';
 import Work from './Components/Work';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
+import Navbar2 from './Components/Navbar2';
 
 function LayoutWithoutFooter() {
   return (
     <>
-      <Navbar />
+      <Navbar2 />
       <AnimatePresence mode="wait">
         <Outlet /> {/* Renders the matched child route */}
       </AnimatePresence>
@@ -24,7 +25,7 @@ function LayoutWithoutFooter() {
 function LayoutWithFooter() {
   return (
     <>
-      <Navbar />
+      <Navbar2 />
       <AnimatePresence mode="wait">
         <Outlet /> {/* Renders the matched child route */}
       </AnimatePresence>

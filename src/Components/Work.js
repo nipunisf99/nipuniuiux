@@ -24,12 +24,13 @@ function Work() {
   };
 
   return (
-    <div className='main-grid mt-2 mt-sm-5'>
-      <div className='btn-sec'>
-        <button className="btn" onClick={() => handleSectionChange('designsec')}>
+    <div className='main-grid margin-main'>
+      <h2 className='text-secondary'>Check out my recent work</h2>
+      <div className='work-btn-div d-flex justify-content-center text-center mt-5'>
+        <button className="btn-primary" onClick={() => handleSectionChange('designsec')}>
           <span className='btn-font'>UI/UX Design</span>
         </button>
-        <button className="btn" onClick={() => handleSectionChange('devsec')}>
+        <button className="btn-primary" onClick={() => handleSectionChange('devsec')}>
           <span className='btn-font'>UI Development</span>
         </button>
       </div>
@@ -42,15 +43,15 @@ function Work() {
                 <div className='img-cont'>
                   <img src={mealMate} alt="MealMate" className='card-img-top' />
                 </div>
-                <div className='card-bottom'>
+                <div className='card-bottom d-flex justify-content-between'>
                   <div className='text-sec'>
-                    <p className='mb-0 fw-bold'>MealMate</p>
+                    <p className='mb-0 fw-bolder'>MealMate</p>
                     <p className='mb-0'>Food delivery mobile app</p>
                     <p className='mb-0'>UI/UX Case Study</p>
                   </div>
                   <div className='icon-btn'>
                     <a href="https://www.behance.net/gallery/206301991/MealMate_FoodDelivery_MobileApp-UIUX-Case-Study" target="_blank" rel="noopener noreferrer">
-                      <Icon icon="devicon-plain:behance" className='icon-style' />
+                      <Icon icon="ion:logo-behance" className='icon-style-default link-style' />
                     </a>
                   </div>
                 </div>
@@ -60,7 +61,7 @@ function Work() {
                 <div className='img-cont'>
                   <img src={ugc} alt="Ausluch" className='card-img-top' />
                 </div>
-                <div className='card-bottom'>
+                <div className='card-bottom d-flex justify-content-between'>
                   <div className='text-sec'>
                     <p className='mb-0 fw-bold'>University Grant Commission</p>
                     <p className='mb-0'>Higher education website</p>
@@ -68,7 +69,7 @@ function Work() {
                   </div>
                   <div className='icon-btn'>
                     <a href="https://www.behance.net/gallery/206913523/UGC-Website-Re-Design-UIUX-Revamp" target="_blank" rel="noopener noreferrer">
-                      <Icon icon="devicon-plain:behance" className='icon-style' />
+                      <Icon icon="ion:logo-behance" className='icon-style-default link-style' />
                     </a>
                   </div>
                 </div>
@@ -78,7 +79,7 @@ function Work() {
                 <div className='img-cont'>
                   <img src={tourism} alt="Ausluch" className='card-img-top' />
                 </div>
-                <div className='card-bottom'>
+                <div className='card-bottom d-flex justify-content-between'>
                   <div className='text-sec'>
                     <p className='mb-0 fw-bold'>Nature Tech</p>
                     <p className='mb-0'>Web and mobile compatible toursim solution</p>
@@ -86,7 +87,7 @@ function Work() {
                   </div>
                   <div className='icon-btn'>
                     <a href="https://www.figma.com/design/PCErbjaj9DBl1EATiWrkot/Tourism-UIUX?node-id=0-1&t=ATAp5yLOIPI7r2SD-1" target="_blank" rel="noopener noreferrer">
-                      <Icon icon="streamline:figma-solid" className='icon-style' />
+                      <Icon icon="streamline:figma-solid" className='icon-style-default link-style' />
                     </a>
                   </div>
                 </div>
@@ -96,7 +97,7 @@ function Work() {
                 <div className='img-cont'>
                   <img src={apartment} alt="Ausluch" className='card-img-top' />
                 </div>
-                <div className='card-bottom'>
+                <div className='card-bottom d-flex justify-content-between'>
                   <div className='text-sec'>
                     <p className='mb-0 fw-bold'>Apartment Solutions</p>
                     <p className='mb-0'>Apartment management mobile application</p>
@@ -104,7 +105,7 @@ function Work() {
                   </div>
                   <div className='icon-btn'>
                     <a href="https://www.behance.net/gallery/149501445/UI-design-of-Apartment-Solution-mobile-application" target="_blank" rel="noopener noreferrer">
-                      <Icon icon="devicon-plain:behance" className='icon-style' />
+                      <Icon icon="ion:logo-behance" className='icon-style-default link-style' />
                     </a>
                   </div>
                 </div>
@@ -114,7 +115,7 @@ function Work() {
                 <div className='img-cont'>
                   <img src={smobsy} alt="Ausluch" className='card-img-top' />
                 </div>
-                <div className='card-bottom'>
+                <div className='card-bottom d-flex justify-content-between'>
                   <div className='text-sec'>
                     <p className='mb-0 fw-bold'>Smobsy</p>
                     <p className='mb-0'>Online shopping platform</p>
@@ -122,7 +123,7 @@ function Work() {
                   </div>
                   <div className='icon-btn'>
                     <a href="https://www.behance.net/gallery/150274583/SMOBSY-online-shopping-platform-Website-UI-Design" target="_blank" rel="noopener noreferrer">
-                      <Icon icon="devicon-plain:behance" className='icon-style' />
+                      <Icon icon="ion:logo-behance" className='icon-style-default link-style' />
                     </a>
                   </div>
                 </div>
@@ -145,7 +146,7 @@ function Work() {
                   <p className='mb-0' style={{ color: "#F3C500" }}>Framer</p>
                   <p className='mb-0' style={{ color: "#F3C500" }}>GSAP</p>
                 </div>
-                <div className='card-bottom'>
+                <div className='card-bottom d-flex justify-content-between'>
                   <div className='text-sec'>
                     <p className='mb-0 fw-bold'>Portfolio</p>
                     <p className='mb-0'>Portfolio Website</p>
@@ -153,7 +154,7 @@ function Work() {
                   </div>
                   <div className='icon-btn'>
                     <a href="https://github.com/nipunisf99/nipuniuiux" target="_blank" rel="noopener noreferrer">
-                      <Icon icon="akar-icons:github-fill" className='icon-style' />
+                      <Icon icon="akar-icons:github-fill" className='icon-style-default link-style' />
                     </a>
                   </div>
                 </div>
@@ -168,7 +169,7 @@ function Work() {
                   <p className='mb-0' style={{ color: "#F3C500" }}>Bootstrap</p>
                   <p className='mb-0' style={{ color: "#F3C500" }}>CSS</p>
                 </div>
-                <div className='card-bottom'>
+                <div className='card-bottom d-flex justify-content-between'>
                   <div className='text-sec'>
                     <p className='mb-0 fw-bold'>Villa Marisol</p>
                     <p className='mb-0'>Villa Website</p>
@@ -176,10 +177,10 @@ function Work() {
                   </div>
                   <div className='icon-btn d-flex gap-4'>
                   <a href="https://nipunisf99.github.io/villamarisol/" target="_blank" rel="noopener noreferrer">
-                      <Icon icon="ph:link" className='icon-style' />
+                      <Icon icon="ph:link" className='icon-style-default link-style' />
                     </a>
                     <a href="https://github.com/nipunisf99/villamarisol" target="_blank" rel="noopener noreferrer">
-                      <Icon icon="akar-icons:github-fill" className='icon-style' />
+                      <Icon icon="akar-icons:github-fill" className='icon-style-default link-style' />
                     </a>
                   </div>
                 </div>
