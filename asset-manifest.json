@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/nipuniuiux/static/css/main.605da664.css",
-    "main.js": "/nipuniuiux/static/js/main.ddd45cc9.js",
+    "main.js": "/nipuniuiux/static/js/main.cee43806.js",
     "static/js/453.343b935b.chunk.js": "/nipuniuiux/static/js/453.343b935b.chunk.js",
-    "static/media/PNSFernando-UIUXEngineer-Resume.pdf": "/nipuniuiux/static/media/PNSFernando-UIUXEngineer-Resume.c4c36b933672ce5cd901.pdf",
+    "static/media/PNSFernando-Resume.pdf": "/nipuniuiux/static/media/PNSFernando-Resume.fd992b6689920d7af013.pdf",
     "static/media/mealmateui.png": "/nipuniuiux/static/media/mealmateui.5fb2713714fa68bd9730.png",
     "static/media/ugc.png": "/nipuniuiux/static/media/ugc.ae331ca260a530d0cd77.png",
     "static/media/villa.png": "/nipuniuiux/static/media/villa.84117fb3c014bd202c67.png",
@@ -40,11 +40,11 @@
     "static/media/ClashGrotesk-Bold.woff2": "/nipuniuiux/static/media/ClashGrotesk-Bold.b8dfad4ca28d511259f7.woff2",
     "index.html": "/nipuniuiux/index.html",
     "main.605da664.css.map": "/nipuniuiux/static/css/main.605da664.css.map",
-    "main.ddd45cc9.js.map": "/nipuniuiux/static/js/main.ddd45cc9.js.map",
+    "main.cee43806.js.map": "/nipuniuiux/static/js/main.cee43806.js.map",
     "453.343b935b.chunk.js.map": "/nipuniuiux/static/js/453.343b935b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.605da664.css",
-    "static/js/main.ddd45cc9.js"
+    "static/js/main.cee43806.js"
   ]
 }
