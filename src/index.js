@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './styles/mainmin.css';
+import './styles/main.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Includes Popper.js and Bootstrap JS
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import { animateIntro, animateImage, animateExp, animateEdu } from './gsapAnimation';
 import startCounter from './gsapAnimation';
 import { transition } from './framerMotionAnimation';
-import aboutProfilePic from '../assets/images/aboutpropic.png';
+import aboutProfilePic from '../assets/images/aa.jpg';
 
 function About() {
   useEffect(() => {
@@ -35,10 +35,10 @@ function About() {
         </div>
 
         <div className="about-item-pic">
-          <img src={aboutProfilePic} alt="Profile Pic" width='100%' />
+          <img src={aboutProfilePic} alt="Profile Pic" width='50%' />
         </div>
         <div className="about-item3">
-          <p>I'm an IT and Management undergraduate with a passon that led me to learn HTML & CSS. Over time, I expanded my skills to include UX/UI design, React.js, and more. Currently, I’m focused on exploring minimalistic UI design. I have a deep appreciation for typography and colors and consider myself a versatile UI design generalist. I adapt my design style—whether minimalistic, colorful, typographic, tech-inspired, or elegant—to meet the unique needs of each project, always adhering to core design principles.</p>
+          <p>I'm an IT and Management graduate with a passion that led me to learn HTML & CSS. Over time, I expanded my skills to include UX/UI design, React.js, and more. Currently, I’m focused on exploring minimalistic UI design. I have a deep appreciation for typography and colors and consider myself a versatile UI design generalist. I adapt my design style—whether minimalistic, colorful, typographic, tech-inspired, or elegant—to meet the unique needs of each project, always adhering to core design principles.</p>
           <div className="counter-sec d-flex justify-content-center gap-4 mt-5">
             <div className='counter-card d-flex flex-column align-items-center justify-content-start'>
               <div className='counter-icon d-flex align-items-baseline'>
